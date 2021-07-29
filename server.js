@@ -11,6 +11,7 @@ const db = require('./app/models');
 db.sequelize.sync();
 
 
+
 app.get('/', (req, res) => {
     res.json({message: "'we are going to work on postgress'"})
 });
